@@ -26,7 +26,9 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   
 }
 function accessElementInArray(array, index) {
-  return array [index]
+  console.log(`THENUMBERIS ${index} THISISTHENUMBER`)
+  console.log("blah, blah")
+  return array[index]
 
 }
 function destructivelyAddElementToEndOfArray(array, element) {
